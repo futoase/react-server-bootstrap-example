@@ -1,0 +1,8 @@
+<% extend 'layout.ect' %>
+<div id="content"></div>
+<script>
+  $(function() {
+    var Application = React.createFactory(require("App"));
+    React.render(Application(), document.getElementById("content"))
+  });
+</script>

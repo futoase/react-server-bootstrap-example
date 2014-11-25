@@ -1,0 +1,3 @@
+node_modules/*
+dest/.module-cache/*
+npm-debug.log
